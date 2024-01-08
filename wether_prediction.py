@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-weather = pd.read_csv("local_weather.csv", index_col="DATE")
+weather = pd.read_csv("wether_somewhere_in-USA", index_col="DATE")
 
 print(weather.info())
 print(weather["TMAX"].head(5))
